@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+ <link href="styles/style.css" rel="stylesheet" type="text/css">
+   <style
+   body {
+      margin: 2;
+      padding: 0;
+      }
+     body {
+      background-color: grey; 
+      font-family: Calibri, sans-serif; 
+      font-size: 100%;
+      }
+      h1 {
+      font-size: 200%; 
+      color: navy; 
+      text-align: center;
+      }
+      h2 {
+      font-size: 150%; 
+      color: red; 
+      padding-left: 15px;
+      color: white;
+      text-align: center;
+         text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; 
+      }
+      h3 {
+      font-size: 100%; 
+      color: red; 
+      padding-left: 15px;
+      color: black;
+      text-align: left;
+          
+      }
+      
+      li {
+        list-style-type: circle;
+        padding: 10px 20px;
+        border:0px solid #C0C0C0;
+      } 
+      
+      td {
+       padding: 10px 20px;
+       border:0px solid #C0C0C0;
+       
+      }
+   </style>
+</head>

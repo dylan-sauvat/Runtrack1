@@ -1,0 +1,178 @@
+style*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+
+}
+
+header{
+    background-image: url(https://laplateforme.io/wp-content/uploads/2021/07/logo_laplateforme_bleu3.png);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    font-size: 22px;
+    background-color: #17BEBB;
+    color:#fff;
+
+}
+.main-head{
+    background: #0a2b19;
+    color: #fff;
+}
+nav {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+body{
+    font-family: Segeo UI, Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container-grille{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+
+}
+.logo a{
+    color: #fff;
+    padding: 0px 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, blue, alpha);
+}
+.logo span{
+    color: rgb(238, 56, 11);
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+
+}
+ul li{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background: #fff;
+    color: #000;
+
+}
+ul li.active a{
+    background: #fff;
+    color: #000;
+
+}
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+
+}
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.titre h1{
+    color: #fff;
+    font-size: 70px;
+
+}
+.bouton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.bouton a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+.liste-sidenav {
+    list-style-type: none;
+    max-height: 650px;
+    display: flex;
+    flex-direction: column;
+
+}
+.liste-sidenav li{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    display: flex;                
+    padding:0;                    
+    background-color: #ccc;      
+    justify-content: space-around;
+}
+.menu li {
+    list-style-type: none ;       
+  
+}
+.menu a {
+    display:block;                
+    min-width: 120px;                
+    
+    margin: 0.5rem;               
+    padding: 0.4rem 0;            
+    text-align: center;             
+    background-color: #1ABC9C;    
+    color: #fff;                  
+    text-decoration: none;        
+    border: 1px solid #fff;       
+    border-radius: 4px;           
+    
+    transition: all 1s ;         
+}
+.menu a.actif {    
+    background-color: #000 ; 
+    color: #1ABC9C ;
+    border-color: #1ABC9C ;
+}
+.menu a:hover,
+.menu a:hover.actif{
+    background-color: #ed2794;
+    color: #ffe843;
+    border-color: #ffe843;
+}
+
