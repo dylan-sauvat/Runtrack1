@@ -1,0 +1,253 @@
+@import url("https://fonts.googleleapis.com/css2?family=Montserrat&display=swap");
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri', sans-serif;
+    
+
+
+}
+nav{
+    image-orientation: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+    font-size: larger;
+
+
+}
+nav h1{
+    color: #000;
+    font-family: 'Calibri', sans-serif;
+    font-size: 30px;
+
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: blue;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+header{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background: url(https://wallpaperaccess.com/full/638869.jpg);
+     background-size: cover;
+     color: darkslategrey;
+     padding: 40px;
+
+}
+
+header h1{
+    font-family: 'Rockwell', sans-serif;
+    font-size: 50px;
+    
+
+}
+
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    
+}
+
+header button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font-size: 20px;
+    font-family: 'Playfair Display', sans-serif;
+
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+}
+
+.main .content .card .right{
+    flex: 0 0 70%;
+}
+
+.main .content .card .right img{
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.container:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+.content-box{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+
+}
+
+.left{
+    height: 100%;
+    background-size: cover;
+
+}
+.right{
+    padding: 25px 40px;
+}
+
+h2{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+h2:after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc71;
+}
+
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+
+
+}
+
+.field:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.area{
+    min-height: 150px;
+
+}
+
+.btn{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1;
+    font-family: Calibri;
+    background-color: #2ecc71;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #27ae60;
+
+}
+
+
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: #000;
+    color: #fff;
+    padding: 30px 100px;
+}
+
+footer h1{
+    font-family: 'Playfair Display', sans-serif;
+    border-bottom: 1px solid #fff;
+    width: 20%;
+    padding-bottom: 5px;
+}
+
+footer .infos{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer #contact{
+    color: rgb(181, 181, 181);
+}
+@media screen and (max-width:680px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .main .card{
+        margin-top: 10px;
+    }
+    .main .content .card .right img{
+        height: 200px;
+        width: 100%;
+    }
+    
+}
